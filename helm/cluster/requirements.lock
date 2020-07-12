@@ -1,0 +1,36 @@
+dependencies:
+- name: blockchain
+  repository: file://../blockchain
+  version: 0.1.0
+- name: blockchain
+  repository: file://../blockchain
+  version: 0.1.0
+- name: blockchain
+  repository: file://../blockchain
+  version: 0.1.0
+- name: blockchain
+  repository: file://../blockchain
+  version: 0.1.0
+- name: api
+  repository: file://../api
+  version: 0.1.0
+- name: api
+  repository: file://../api
+  version: 0.1.0
+- name: api
+  repository: file://../api
+  version: 0.1.0
+- name: api
+  repository: file://../api
+  version: 0.1.0
+- name: excel-export
+  repository: file://../excel-export
+  version: 0.1.0
+- name: frontend
+  repository: file://../frontend
+  version: 0.1.0
+- name: frontend
+  repository: file://../frontend
+  version: 0.1.0
+digest: sha256:5bd866e4609c629cb30586e351be78431874836803448e27e97a94f9a8a3a4d8
+generated: 2019-04-18T11:29:35.42539+02:00

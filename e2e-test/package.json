@@ -1,0 +1,38 @@
+{
+  "name": "trubudget-e2e-test",
+  "version": "1.11.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openkfw/TruBudget"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Jure Zakotnik <Jure.Zakotnik@kfw.de>",
+  "contributors": [
+    "Stefan Ziffer <stefan.ziffer@accenture.com>",
+    "Mathias Höld <mathias.hoeld@accenture.com>",
+    "Kevin Bader <kevin.bader@accenture.com>",
+    "Sascha Kerbler <sascha.kerbler@accenture.com>",
+    "Roman Schiefer <roman.schiefer@accenture.com>",
+    "Philip Pai <philip.pai@accenture.com>"
+  ],
+  "main": "index.js",
+  "devDependencies": {
+    "accounting": "^0.4.1",
+    "cypress": "^3.8.3",
+    "cypress-file-upload": "^3.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-cypress": "^2.2.1",
+    "eslint-plugin-mocha": "^5.3.0",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "cypress": "cypress open",
+    "e2etest": "cypress run",
+    "e2etest:here": "node ./runTest.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}

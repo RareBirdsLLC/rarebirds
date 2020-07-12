@@ -1,0 +1,17 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openkfw/TruBudget"
+  },
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "danger": "danger"
+  },
+  "devDependencies": {
+    "danger": "^9.2.2",
+    "lodash": "^4.17.14"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  }
+}
