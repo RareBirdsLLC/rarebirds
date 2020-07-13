@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/openkfw/TruBudget"
+    "url": "https://github.com/realChainLife/TruBudget"
   },
   "license": "GPL-3.0-or-later",
   "author": "Jure Zakotnik <Jure.Zakotnik@kfw.de>",
@@ -23,9 +23,9 @@
     "start": "node dist/index.js"
   },
   "bugs": {
-    "url": "https://github.com/openkfw/TruBudget/issues"
+    "url": "https://github.com/realChainLife/TruBudget/issues"
   },
-  "homepage": "https://github.com/openkfw/TruBudget/email-notification/#readme",
+  "homepage": "https://github.com/realChainLife/TruBudget/email-notification/#readme",
   "dependencies": {
     "@types/jsonwebtoken": "^8.3.8",
     "axios": "^0.19.1",
