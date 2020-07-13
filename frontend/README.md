@@ -8,7 +8,7 @@ This project is based on the `create-react-app` starter kit provided by the Face
 
 ## Production vs. Development Mode
 
-It is common for Modern Single Page Application to run in in different modes. This also apply to the TruBudget frontend. We decide between:
+It is common for Modern Single Page Application to run in in different modes. This also apply to the RareBirds frontend. We decide between:
 
 - Development Mode: Is started with node and offers JIT, Hot Reloading and Debug Logging. The node process spawns an own webserver, performance is degraded but developer experience is best
 - Production Mode: Application is pre-build and transpiled to an ES5 Version of Javascript (compatible with a variety of browser), no log output, optmized file-sized. The production mode outputs static files which need to be hosted on a seperate webserver (in our case NGINX). Performance is best, developer experience (due to compiling and deployment to separate server) lowest.

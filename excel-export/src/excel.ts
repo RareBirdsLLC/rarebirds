@@ -30,7 +30,7 @@ export async function writeXLSX(
     };
     const { userId } = jwtDecode(token);
     const workbook = new Excel.stream.xlsx.WorkbookWriter(options);
-    workbook.creator = userId ? userId : "Unknown TruBudget User";
+    workbook.creator = userId ? userId : "Unknown RareBirds User";
     workbook.created = new Date();
 
     // Prepare sheets
@@ -201,6 +201,6 @@ export async function writeXLSX(
     }
     await workbook.commit();
   } catch (error) {
-    throw new Error(`Error making request to TruBudget: ${error.message} -> ${error.config.url}`);
+    throw new Error(`Error making request to RareBirds: ${error.message} -> ${error.config.url}`);
   }
 }

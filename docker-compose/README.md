@@ -1,4 +1,4 @@
-`docker-compose` files for running TruBudget:
+`docker-compose` files for running RareBirds:
 
 - [`local`](./local/): builds images from source
 - [`master`](./master/): uses images from Docker Hub

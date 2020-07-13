@@ -1,6 +1,6 @@
-# TruBudget Provisioning
+# RareBirds Provisioning
 
-Initialize a newly created TruBudget node (MultiChain + API) with data. The script can handle multiple environments, which can be defined using JSON files in `src/data/<ENVIRONMENT>/` and selected using the environment variable `ENVIRONMENT_TYPE`.
+Initialize a newly created RareBirds node (MultiChain + API) with data. The script can handle multiple environments, which can be defined using JSON files in `src/data/<ENVIRONMENT>/` and selected using the environment variable `ENVIRONMENT_TYPE`.
 
 First, install the dependencies:
 

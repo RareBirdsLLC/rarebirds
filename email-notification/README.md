@@ -61,7 +61,7 @@ Subscribing/unsubscribing to the email notification service can be handled by th
 
 ## Getting Started
 
-The easiest way to get started is to use our pre-set `docker-compose` cluster which starts the whole TruBudget application including all email components (that means you need to install [Docker](https://www.docker.com/community-edition#/download)).
+The easiest way to get started is to use our pre-set `docker-compose` cluster which starts the whole RareBirds application including all email components (that means you need to install [Docker](https://www.docker.com/community-edition#/download)).
 The pre-set cluster contains:
 
 - 1 Master-Node

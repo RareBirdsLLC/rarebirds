@@ -1,4 +1,4 @@
-# TruBudget Blockchain
+# RareBirds Blockchain
 
 This project encapsulates the Multichain implementation for Trubudget. It can be seen as the data tier in Trubudget
 
@@ -58,7 +58,7 @@ These environment variables configure the email service. `EMAIL_HOST`, `EMAIL_PO
 
 ## Getting started
 
-The easiest way to get started is to use our pre-set `docker-compose` cluster which starts the whole TruBudget application (that means you need to install [Docker](https://www.docker.com/community-edition#/download)). It uses the local build of the blockchain and the master-deployments of the TruBudget API and Frontend. The pre-set cluster contains:
+The easiest way to get started is to use our pre-set `docker-compose` cluster which starts the whole RareBirds application (that means you need to install [Docker](https://www.docker.com/community-edition#/download)). It uses the local build of the blockchain and the master-deployments of the RareBirds API and Frontend. The pre-set cluster contains:
 
 - 1 Master-Node + 1 Slave-Node
 - 1 Master API connected to Master-Node
@@ -74,7 +74,7 @@ Enjoy!
 
 ## Enable email notifications
 
-The easiest way to get started is to use our pre-set `docker-compose` cluster available in the `email-notification` project which starts the whole TruBudget application including all email components(that means you need to install [Docker](https://www.docker.com/community-edition#/download)).
+The easiest way to get started is to use our pre-set `docker-compose` cluster available in the `email-notification` project which starts the whole RareBirds application including all email components(that means you need to install [Docker](https://www.docker.com/community-edition#/download)).
 The pre-set cluster contains:
 
 - 1 Master-Node

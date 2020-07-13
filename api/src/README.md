@@ -1,6 +1,6 @@
-# Hacking TruBudget
+# Hacking RareBirds
 
-Welcome to the **TruBudget API Source Directory**. This readme file offers an introduction into how the code here is organized. It also mentions some best practices along the way.
+Welcome to the **RareBirds API Source Directory**. This readme file offers an introduction into how the code here is organized. It also mentions some best practices along the way.
 
 Contents:
 

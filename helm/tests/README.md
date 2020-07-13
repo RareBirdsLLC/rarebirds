@@ -4,7 +4,7 @@
 - [Deploy E2E environment to your cluster](#deploy-e2e-environment-to-your-cluster)
 - [Configuration](#configuration)
 
-# Deploy TruBudget E2E-Test environment to Kubernetes with Helm <!-- omit in TOC -->
+# Deploy RareBirds E2E-Test environment to Kubernetes with Helm <!-- omit in TOC -->
 
 ## Prerequisites
 
@@ -14,11 +14,11 @@ Make sure to have [Helm](https://github.com/helm/helm/blob/master/docs/install.m
 helm init
 ```
 
-Clone `realChainLife/TruBudget` repository and go to `helm` folder.
+Clone `realChainLife/RareBirds` repository and go to `helm` folder.
 
 ```bash
-git clone https://github.com/realChainLife/TruBudget.git
-cd TruBudget/helm
+git clone https://github.com/realChainLife/RareBirds.git
+cd RareBirds/helm
 ```
 
 ## Deploy E2E environment to your cluster

@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Starting TruBudget"
+echo "Starting RareBirds"
 
 COMPOSE="docker-compose -f docker-compose/master/master-node.yml -p trubudget"
 
