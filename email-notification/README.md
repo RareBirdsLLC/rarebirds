@@ -26,7 +26,7 @@ npm install <Driver> --save
 | ------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | PORT          | 8890                              | Port for HTTP Server                                                                                             |
 | DB_TYPE       | pg                                | Type of database. A supported list can be found in the [Database Configuration section](#database-configuration) |
-| DB_NAME       | trubudget_email_service           | Name of the database                                                                                             |
+| DB_NAME       | rarebirds_email_service           | Name of the database                                                                                             |
 | DB_USER       | postgres                          | User name for connected database                                                                                 |
 | DB_PASSWORD   | test                              | Password for connected database                                                                                  |
 | DB_HOST       | localhost                         | IP of connected database                                                                                         |

@@ -73,7 +73,7 @@ const EXPOSE_MC = process.env.EXPOSE_MC === "true" ? true : false;
 
 if (EMAIL_SERVICE_ENABLED && !emailAuthSecret) {
   console.log(
-    "Error: Env variable 'JWT_SECRET' not set. Please set the same secret as in the trubudget email-service.",
+    "Error: Env variable 'JWT_SECRET' not set. Please set the same secret as in the rarebirds email-service.",
   );
   os.exit(1);
 }
@@ -295,7 +295,7 @@ app.post("/chain", async (req, res) => {
           autostart = true;
           res.send("OK");
         } else {
-          console.log("Not a valid trubudget backup....");
+          console.log("Not a valid rarebirds backup....");
           res.status(400).send("Not a valid RareBirds backup");
         }
       } else {

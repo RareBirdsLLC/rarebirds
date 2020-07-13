@@ -1,7 +1,7 @@
 version: "3.2"
 services:
   master:
-    image: trubudget/blockchain:latest
+    image: rarebirds/blockchain:latest
     environment:
       RPC_PORT: 8000
       ORGANIZATION: ACMECorp
@@ -12,7 +12,7 @@ services:
       - "7447:7447"
       - "8000:8000"
   api:
-    image: trubudget/api:latest
+    image: rarebirds/api:latest
     environment:
       RPC_HOST: master
       RPC_PORT: 8000
@@ -27,7 +27,7 @@ services:
     ports:
       - "8080:8080"
   provisioning:
-    image: trubudget/provisioning:latest
+    image: rarebirds/provisioning:latest
     environment:
       API_HOST: api
       API_PORT: 8080

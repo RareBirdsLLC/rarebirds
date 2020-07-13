@@ -10,7 +10,7 @@
   - [Close workflowitem](#close-workflowitem)
   - [View and filter the history of a workflowitem](#view-and-filter-the-history-of-a-workflowitem)
   - [Reorder Workflowitems](#reorder-workflowitems)
-  - [Documents in RareBirds](#documents-in-trubudget)
+  - [Documents in RareBirds](#documents-in-rarebirds)
     - [Add document to workflowitem](#add-document-to-workflowitem)
     - [Validate a document](#validate-a-document)
 

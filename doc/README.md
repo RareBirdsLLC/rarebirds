@@ -9,7 +9,7 @@ Welcome to the RareBirds documentation! This guide aims to provide you with info
 [Introduction](./Introduction.md) - Some basics of RareBirds
 
 - [Environment Variables](./Introduction.md#environment-variables)
-- [Organizations and Nodes](./Introduction.md#organizations-and-nodes-in-trubudget)
+- [Organizations and Nodes](./Introduction.md#organizations-and-nodes-in-rarebirds)
 
 [Tutorials](./tutorials) - Guides to get started with running RareBirds
 

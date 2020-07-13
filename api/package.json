@@ -1,5 +1,5 @@
 {
-  "name": "trubudget-api",
+  "name": "rarebirds-api",
   "version": "1.11.0",
   "private": true,
   "repository": {
@@ -20,7 +20,7 @@
   "apidoc": {
     "name": "RareBirds",
     "title": "RareBirds",
-    "url": "https://trubudget.net/api",
+    "url": "https://rarebirds.net/api",
     "order": [
       "User",
       "Global",

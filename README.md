@@ -8,11 +8,11 @@
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Starting the first RareBirds node](#starting-the-first-trubudget-node)
-  - [Working with RareBirds](#working-with-trubudget)
+  - [Starting the first RareBirds node](#starting-the-first-rarebirds-node)
+  - [Working with RareBirds](#working-with-rarebirds)
   - [Adding new nodes to the network](#adding-new-nodes-to-the-network)
   - [Granting access for new nodes](#granting-access-for-new-nodes)
-  - [Using RareBirds programatically through its API](#using-trubudget-programatically-through-its-api)
+  - [Using RareBirds programatically through its API](#using-rarebirds-programatically-through-its-api)
   - [Hints and Pitfalls](#hints-and-pitfalls)
 - [Build and Develop from Local Sources](#build-and-develop-from-local-sources)
 - [More Information](#more-information)
@@ -44,7 +44,7 @@ For more detailed information about the installation and the environment variabl
 The required environment variables are set in the `.env` file. If you want to use the standard setup, simply copy the `.env_example` file, otherwise explore the posible configuration options in it:
 
 ```bash
-cd path/to/trubudget
+cd path/to/rarebirds
 cp .env_example .env
 ```
 
@@ -63,11 +63,11 @@ This command will bootstrap a prod and test instance of RareBirds (blockchain, a
 ```bash
 ➜ docker ps
 CONTAINER ID        IMAGE                  COMMAND                  CREATED             STATUS              PORTS                              NAMES
-6e70c64c84c9        trubudget_frontend     "/bin/sh -c '/bin/as…"   30 minutes ago      Up 30 minutes       0.0.0.0:80->80/tcp                 trubudget_frontend_1
-b6e096c65ba8        trubudget_testapi      "/bin/sh -c 'npm sta…"   30 minutes ago      Up 30 minutes       0.0.0.0:8081->8080/tcp             trubudget_testapi_1
-8d70d9f311a9        trubudget_api          "/bin/sh -c 'npm sta…"   30 minutes ago      Up 30 minutes       0.0.0.0:8080->8080/tcp             trubudget_api_1
-49254c50b649        trubudget_master       "npm start"              30 minutes ago      Up 30 minutes       0.0.0.0:7447->7447/tcp, 8000/tcp   trubudget_master_1
-0b458b72d14f        trubudget_testmaster   "npm start"              30 minutes ago      Up 30 minutes       8000/tcp, 0.0.0.0:7448->7447/tcp   trubudget_testmaster_1
+6e70c64c84c9        rarebirds_frontend     "/bin/sh -c '/bin/as…"   30 minutes ago      Up 30 minutes       0.0.0.0:80->80/tcp                 rarebirds_frontend_1
+b6e096c65ba8        rarebirds_testapi      "/bin/sh -c 'npm sta…"   30 minutes ago      Up 30 minutes       0.0.0.0:8081->8080/tcp             rarebirds_testapi_1
+8d70d9f311a9        rarebirds_api          "/bin/sh -c 'npm sta…"   30 minutes ago      Up 30 minutes       0.0.0.0:8080->8080/tcp             rarebirds_api_1
+49254c50b649        rarebirds_master       "npm start"              30 minutes ago      Up 30 minutes       0.0.0.0:7447->7447/tcp, 8000/tcp   rarebirds_master_1
+0b458b72d14f        rarebirds_testmaster   "npm start"              30 minutes ago      Up 30 minutes       8000/tcp, 0.0.0.0:7448->7447/tcp   rarebirds_testmaster_1
 ```
 
 Once the application is started (and the provisioning is done), you can visit the application at:

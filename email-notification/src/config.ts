@@ -38,7 +38,7 @@ const config: Config = {
     user: process.env.DB_USER || "postgres",
     password: process.env.DB_PASSWORD || "test",
     host: process.env.DB_HOST || "localhost",
-    database: process.env.DB_NAME || "trubudget_email_service",
+    database: process.env.DB_NAME || "rarebirds_email_service",
     port: Number(process.env.DB_PORT) || 5432,
     ssl: Boolean(process.env.DB_SSL) || false,
     schema: process.env.DB_SCHEMA || "public",
@@ -54,7 +54,7 @@ const config: Config = {
   },
   email: {
     from:
-      process.env.EMAIL_FROM || '"Trubudget Notification Service👻" <trubudget@notification.com>',
+      process.env.EMAIL_FROM || '"Trubudget Notification Service👻" <rarebirds@notification.com>',
     subject: process.env.EMAIL_SUBJECT || "Trubudget Notificaiton",
     text: process.env.EMAIL_TEXT || "You have received a notification.",
   },

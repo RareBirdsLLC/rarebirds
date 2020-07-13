@@ -1,7 +1,7 @@
 version: "3.2"
 services:
   api:
-    image: trubudget/api:${TAG}
+    image: rarebirds/api:${TAG}
     environment:
       RPC_HOST: master
       RPC_PORT: ${RPC_PORT}
@@ -19,7 +19,7 @@ services:
       - "8080:${API_PORT}"
 
   master:
-    image: trubudget/blockchain:${TAG}
+    image: rarebirds/blockchain:${TAG}
     environment:
       RPC_PORT: ${RPC_PORT}
       RPC_PASSWORD: ${RPC_PASSWORD}
@@ -29,7 +29,7 @@ services:
       - "7447:7447"
 
   bc-slave:
-    image: trubudget/blockchain:${TAG}
+    image: rarebirds/blockchain:${TAG}
     environment:
       RPC_PORT: ${RPC_PORT}
       RPC_PASSWORD: ${RPC_PASSWORD}
@@ -47,7 +47,7 @@ services:
       - "7448:7447"
 
   frontend:
-    image: trubudget/frontend:${TAG}
+    image: rarebirds/frontend:${TAG}
     environment:
       PROD_API_HOST: api
       PROD_API_PORT: ${API_PORT}

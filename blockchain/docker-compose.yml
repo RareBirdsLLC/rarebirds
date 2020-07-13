@@ -71,7 +71,7 @@ services:
   #     - master-api
   #     # - test-master-api
   # slave-frontend:
-  #   image: trubudget/frontend:master
+  #   image: rarebirds/frontend:master
   #   environment:
   #     PROD_API_HOST: slave-api
   #     PROD_API_PORT: 8080

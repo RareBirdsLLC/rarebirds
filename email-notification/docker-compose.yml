@@ -27,7 +27,7 @@ services:
       SMTP_PORT: 2500
       DB_HOST: emaildb
       DB_PORT: 5432
-      DB_NAME: trubudget_email_service
+      DB_NAME: rarebirds_email_service
       HTTP_PORT: 8890
       LOG_LEVEL: INFO
       # MODE: DEBUG
@@ -43,7 +43,7 @@ services:
       POSTGRES_HOST: localhost
       POSTGRES_PASSWORD: test
       POSTGRES_PORT: 5432
-      POSTGRES_DB: trubudget_email_service
+      POSTGRES_DB: rarebirds_email_service
     ports:
       - 5432:5432
   master-api:
@@ -62,7 +62,7 @@ services:
     links:
       - master-node
   provisioning:
-    image: trubudget/provisioning:latest
+    image: rarebirds/provisioning:latest
     command: ["npm", "start"]
     environment:
       API_HOST: master-api
