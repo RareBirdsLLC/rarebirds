@@ -180,13 +180,3 @@ Checkout the [Contributor Guide](./doc/tutorials/contribute/Contributor-Guide.md
 
 <!-- # Troubleshooting
 TBD -->
-
-# More Information
-
-Check out our [**Trubudget-Wiki**](./doc/README.md) to find out how Trubudget works.
-
-<!--# FAQ
-
-| Description | Link |
-| :---------- | :--- |
--->
