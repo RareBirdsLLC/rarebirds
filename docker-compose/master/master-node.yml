@@ -15,7 +15,7 @@ services:
     links:
       - master
     ports:
-      - "8080:${API_PORT}"
+      - 8080
 
   master:
     image: rarebirds/blockchain:${TAG}
@@ -43,7 +43,7 @@ services:
     links:
       - testmaster
     ports:
-      - "8081:${API_PORT}"
+      - 8081
 
   testmaster:
     image: rarebirds/blockchain:${TAG}
